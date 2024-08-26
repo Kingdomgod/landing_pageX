@@ -61,8 +61,16 @@ button{
 }
 
     </style>
+        <script>
+            function changecolor(){
+                var colorchoices=["white,pink"]
+                var choice= colorchoices [(math.random()*colorchoices.length) | 0]
+                document.body.style.background-color= choice
+            }
+        </script>
 </head>
 <body>
+    <button onclick="changecolor()"></button>
     <img src="/images/Sun_Wukong_29.webp" alt="">
     <h1>The monkey king_sun wukong</h1>
     <p>Sun Wukong, also known as the Handsome Monkey King,<br>
